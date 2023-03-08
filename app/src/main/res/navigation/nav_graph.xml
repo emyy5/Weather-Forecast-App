@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.eman.weatherproject.Home.view.HomeFragment"
+        android:name="com.eman.weathetapplication.features.home.view.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.eman.weatherproject.settings.SettingFragment"
+        android:name="com.eman.weathetapplication.features.setting.view.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/initialFragment"
-        android:name="com.eman.weatherproject.initialscreen.InitialFragment"
+        android:name="com.eman.weathetapplication.features.initial.InitialFragment"
         android:label="fragment_initial"
         tools:layout="@layout/fragment_initial" >
         <action
@@ -53,7 +53,7 @@
     </fragment>
     <fragment
         android:id="@+id/splachFragment"
-        android:name="com.eman.weatherproject.splashscreen.SplachFragment"
+        android:name="com.eman.weathetapplication.features.splach.SplachFragment"
         android:label="fragment_splach"
         tools:layout="@layout/fragment_splach" >
         <action
@@ -65,7 +65,7 @@
     </fragment>
     <fragment
         android:id="@+id/favouriteFragment"
-        android:name="com.eman.weatherproject.favourities.view.FavouriteFragment"
+        android:name="com.eman.weathetapplication.features.favourite.view.FavouriteFragment"
         android:label="fragment_favourite"
         tools:layout="@layout/fragment_favourite" >
         <action
@@ -89,12 +89,12 @@
     </fragment>
     <fragment
         android:id="@+id/favouriteDetailsFragment"
-        android:name="com.eman.weatherproject.favourities.view.FavouriteDetailsFragment"
+        android:name="com.eman.weathetapplication.features.favourite.view.FavouriteDetailsFragment"
         android:label="fragment_favourite_details"
         tools:layout="@layout/fragment_favourite_details" />
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.eman.weatherproject.mapscreen.MapsFragment"
+        android:name="com.eman.weathetapplication.features.map.view.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_map" >
         <argument
@@ -106,7 +106,7 @@
     </fragment>
     <fragment
         android:id="@+id/alertFragment"
-        android:name="com.eman.weatherproject.alert.view.AlertFragment"
+        android:name="com.eman.weathetapplication.features.alert.view.AlertFragment"
         android:label="fragment_alert"
         tools:layout="@layout/fragment_alert" />
 </navigation>
