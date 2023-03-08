@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Weather Project</string>
+    <string name="app_name">Weather Application</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="chanelName">Weather Project</string>
     <string name="channel_description">No Alerts For Today</string>
