@@ -27,7 +27,7 @@
                 android:id="@+id/currCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Assiut"
+                android:text="Ismailia"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textAlignment="center"

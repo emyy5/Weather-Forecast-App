@@ -1,7 +1,6 @@
 package com.eman.weathetapplication.data.network
 
 import com.eman.weathetapplication.data.model.WeatherForecast
-import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
